@@ -6,11 +6,11 @@ body {
     display: none;
 }
 #search-field {
-    font-weight: 500;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: .80rem;
 }
 #input-width {
-    width: 75%;
+    width: 80%;
 }
 #title {
     font-weight: 900;
