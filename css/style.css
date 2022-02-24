@@ -1,3 +1,31 @@
 #search-null {
     display: none;
 }
+#search-field {
+    font-weight: 500;
+    font-size: 1rem;
+}
+#input-width {
+    width: 75%;
+}
+#title {
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+button:hover {
+    background-color: green;
+}
+@media (min-width: 576px) { 
+    #search-field {
+        font-weight: 700;
+        font-size: 1.5rem;
+        width: 50%;
+    }
+    #input-width {
+        width: 50%;
+    }
+    #title {
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+ }
