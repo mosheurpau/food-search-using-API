@@ -1,3 +1,11 @@
+var searchBtn = document.getElementById("button-addon2");
+var searchField = document.getElementById("search-field");
+
+searchField.addEventListener("keypress", function (event) {
+    if (event.key == 'Enter')
+        searchBtn.click();
+});
+
 const searchFood = () => {
     const searchField = document.getElementById('search-field');
     const searchText = searchField.value;
